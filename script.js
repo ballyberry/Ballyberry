@@ -74,4 +74,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const sendNow = confirm('Open WhatsApp to send your message? (This will open a new tab)');
     if (sendNow) window.open(waLink, '_blank');
   });
-});
+}); 
